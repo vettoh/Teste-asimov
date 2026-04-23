@@ -7,7 +7,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-background:#f5f5f5;
+background:white;
 color:#191A23;
 }
 
@@ -138,25 +138,21 @@ gap:40px;
 }
 
 .brand{
-padding:14px 22px;
+padding:10px 10px;
 border-radius:8px;
 transition:0.3s;
 cursor:pointer;
 }
 
 .brand img{
-height:28px;
+height:150px;
 opacity:0.6;
 transition:0.3s;
 }
 
-.brand:hover{
-background:#B9FF66;
-}
 
-.brand:hover img{
-opacity:1;
-}
+
+
 
 /* SERVICES */
 
@@ -207,7 +203,7 @@ transition:.3s;
 }
 
 .service_card img{
-width:140px;
+width:200px;
 }
 
 
@@ -284,6 +280,8 @@ padding:40px;
 display:flex;
 align-items:center;
 justify-content:space-between;
+position: relative;
+
 }
 
 .cta_text{
@@ -301,7 +299,10 @@ margin-bottom:20px;
 }
 
 .cta_image img{
-width:220px;
+width:390px;
+position: absolute;
+right: 40px;
+bottom: -55px;
 }
 
 
